@@ -14,9 +14,9 @@ export default function Navbar() {
 
   return (
     <nav className="fixed top-0 left-0 right-0 z-50 bg-white/80 backdrop-blur-md border-b border-[#DDF3FF]">
-      <div className="max-w-6xl mx-auto px-6 h-16 flex items-center justify-between">
+      <div className="max-w-6xl mx-auto px-6 h-20 flex items-center justify-between">
         <a href="#" className="flex items-center">
-          <img src="https://media.base44.com/images/public/6a2ae54d97fb5c760642cbad/ea533d136_ChatGPT_Image_Jun_11__2026__02_45_42_PM__1_.png" alt="Leadero" className="h-20" />
+          <img src="https://media.base44.com/images/public/6a2ae54d97fb5c760642cbad/ea533d136_ChatGPT_Image_Jun_11__2026__02_45_42_PM__1_.png" alt="Leadero" className="h-24" />
         </a>
 
         {/* Desktop */}
@@ -31,7 +31,9 @@ export default function Navbar() {
             </a>
           )}
           <a
-            href="#cta"
+            href="https://start.leadero.agency"
+            target="_blank"
+            rel="noopener noreferrer"
             className="text-sm font-semibold px-5 py-2.5 rounded-full bg-[#8ECDF6] text-white hover:bg-[#74bfee] transition-colors">
             
             Book Strategy Call
@@ -61,7 +63,9 @@ export default function Navbar() {
             </a>
         )}
           <a
-          href="#cta"
+          href="https://start.leadero.agency"
+          target="_blank"
+          rel="noopener noreferrer"
           onClick={() => setOpen(false)}
           className="block text-center text-sm font-semibold px-5 py-2.5 rounded-full bg-[#8ECDF6] text-white">
           

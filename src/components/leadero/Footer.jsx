@@ -16,7 +16,7 @@ export default function Footer() {
     <footer className="relative border-t border-[#DDF3FF] py-12 px-6">
       <div className="max-w-5xl mx-auto flex flex-col md:flex-row items-center md:items-start justify-between gap-8">
         <div className="flex flex-col items-center md:items-start gap-3">
-          <img src="https://media.base44.com/images/public/6a2ae54d97fb5c760642cbad/ea533d136_ChatGPT_Image_Jun_11__2026__02_45_42_PM__1_.png" alt="Leadero" className="h-12" />
+          <img src="https://media.base44.com/images/public/6a2ae54d97fb5c760642cbad/ea533d136_ChatGPT_Image_Jun_11__2026__02_45_42_PM__1_.png" alt="Leadero" className="h-20" />
           <p className="text-xs text-[#9CA3AF] max-w-xs text-center md:text-left">
             AI-powered lead generation systems for service businesses.
           </p>

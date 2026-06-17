@@ -92,11 +92,23 @@ export default function FaqSection() {
             speed, and consistency.
           </p>
           <a
-            href="#cta"
-            className="mt-8 inline-block px-8 py-3.5 rounded-full bg-[#8ECDF6] text-white font-semibold text-sm hover:bg-[#74bfee] transition-colors"
+            href="https://start.leadero.agency"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="mt-8 inline-block px-8 py-3.5 rounded-full bg-[#8ECDF6] text-white font-semibold text-sm hover:bg-[#74bfee] transition-colors shadow-[0_4px_20px_rgba(142,205,246,0.35)]"
           >
             Book Strategy Call
           </a>
+          <br />
+          <a
+            href="https://onboard.leadero.agency"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="mt-3 inline-block px-6 py-2.5 rounded-full border-2 border-[#8ECDF6] text-[#8ECDF6] font-semibold text-sm hover:bg-[#f0f9ff] hover:-translate-y-0.5 transition-all"
+          >
+            Onboard Now →
+          </a>
+          <p className="mt-2 text-[10px] text-[#9CA3AF]">For approved clients ready to get started.</p>
         </motion.div>
       </div>
     </section>

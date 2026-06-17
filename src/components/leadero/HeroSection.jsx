@@ -13,13 +13,13 @@ export default function HeroSection() {
         {/* LEFT — Copy */}
         <div className="flex flex-col">
           {/* Eyebrow logo — hidden on md+ since Navbar shows it */}
-          <motion.img
-            src={LOGO_URL}
-            alt="Leadero"
-            className="h-6 mb-12 w-auto object-contain object-left md:hidden"
-            initial={{ opacity: 0 }}
-            animate={{ opacity: 1 }}
-            transition={{ duration: 0.6 }} />
+          
+
+
+
+
+
+          
           
 
           {/* Headline */}
@@ -62,31 +62,39 @@ export default function HeroSection() {
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.7, delay: 0.35, ease: [0.16, 1, 0.3, 1] }}
-            className="mt-10 flex flex-wrap items-center gap-3">
+            className="mt-10 flex flex-col sm:flex-row sm:items-start gap-4 sm:gap-6">
             
-            <a
-              href="#cta"
-              className="px-7 py-3.5 rounded-full bg-[#8ECDF6] text-white font-semibold text-sm hover:bg-[#74bfee] transition-colors shadow-[0_4px_20px_rgba(142,205,246,0.35)]">
-              
-              Book Strategy Call
-            </a>
-            <a
-              href="#pricing"
-              className="px-7 py-3.5 rounded-full text-[#111827] font-semibold text-sm hover:bg-[#F3FAFE] transition-colors">
-              
-              View Pricing
-            </a>
-          </motion.div>
+            <div className="flex flex-col items-start gap-1">
+              <div className="flex items-center gap-2 w-full sm:w-auto">
+                <a
+                  href="https://start.leadero.agency"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="flex-1 sm:flex-none px-4 py-2.5 sm:px-7 sm:py-3.5 rounded-full bg-[#8ECDF6] text-white font-semibold text-xs sm:text-sm text-center hover:bg-[#74bfee] transition-colors shadow-[0_4px_20px_rgba(142,205,246,0.35)]">
+                  
+                  Book Strategy Call
+                </a>
+                <a
+                  href="#pricing"
+                  className="flex-1 sm:flex-none px-4 py-2.5 sm:px-7 sm:py-3.5 rounded-full text-[#111827] font-semibold text-xs sm:text-sm text-center hover:bg-[#F3FAFE] transition-colors">
+                  
+                  View Pricing
+                </a>
+              </div>
+              <p className="text-[11px] text-[#9CA3AF] tracking-wide ml-4">                                             Starting at $1,000/month
 
-          {/* Starting price */}
-          <motion.p
-            initial={{ opacity: 0 }}
-            animate={{ opacity: 1 }}
-            transition={{ duration: 0.6, delay: 0.5 }}
-            className="mt-5 text-xs text-[#9CA3AF] tracking-wide">
-            
-            Starting at $1,000/month
-          </motion.p>
+              </p>
+              <a
+                href="https://onboard.leadero.agency"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="mt-2 w-full sm:w-auto px-4 py-2.5 sm:px-7 sm:py-3.5 rounded-full border-2 border-[#8ECDF6] text-[#8ECDF6] font-semibold text-xs sm:text-sm text-center hover:bg-[#f0f9ff] hover:-translate-y-0.5 transition-all">
+                
+                Onboard Now →
+              </a>
+              <p className="text-[10px] text-[#9CA3AF] ml-4">For approved clients ready to get started.</p>
+            </div>
+          </motion.div>
         </div>
 
         {/* RIGHT — Funnel Visual */}
