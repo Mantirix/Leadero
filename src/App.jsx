@@ -47,7 +47,7 @@ function App() {
   return (
     <AuthProvider>
       <QueryClientProvider client={queryClientInstance}>
-        <Router>
+        <Router basename="/Leadero">
           <ScrollToTop />
           <AuthenticatedApp />
         </Router>
