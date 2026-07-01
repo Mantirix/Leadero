@@ -14,7 +14,7 @@ export default function PrivacyModal({ onClose }) {
         <h2 className="text-2xl font-bold text-[#111827] mb-1">Privacy Policy</h2>
         <p className="text-xs text-[#9CA3AF] mb-6">Effective Date: June 11, 2026</p>
         <div className="space-y-4 text-sm text-[#374151] leading-relaxed">
-          <p>Leadero ("Company," "we," "our," or "us") respects your privacy and is committed to protecting your personal information.</p>
+          <p>Leadero LLC ("Company," "we," "our," or "us") respects your privacy and is committed to protecting your personal information.</p>
           <p>This Privacy Policy explains how we collect, use, disclose, and safeguard information when you visit our website, engage our services, submit forms, or otherwise interact with us.</p>
           <p>Website: leadero.agency · Email: <a href="mailto:support@leadero.com" className="text-[#8ECDF6] hover:underline">support@leadero.com</a></p>
           <p>By using our website or services, you agree to this Privacy Policy.</p>
@@ -82,9 +82,9 @@ export default function PrivacyModal({ onClose }) {
           <p>We may revise this Privacy Policy periodically. Updates become effective upon posting.</p>
 
           <h3 className="font-semibold text-[#111827] mt-6">13. Contact Information</h3>
-          <p>Leadero<br />Website: leadero.agency<br />Email: <a href="mailto:support@leadero.com" className="text-[#8ECDF6] hover:underline">support@leadero.com</a></p>
+          <p>Leadero LLC<br />Website: leadero.agency<br />Email: <a href="mailto:support@leadero.com" className="text-[#8ECDF6] hover:underline">support@leadero.com</a></p>
 
-          <p className="mt-6 text-xs text-[#9CA3AF]">© 2026 Leadero. All Rights Reserved.</p>
+          <p className="mt-6 text-xs text-[#9CA3AF]">© 2026 Leadero LLC. All Rights Reserved.</p>
         </div>
       </div>
     </div>
