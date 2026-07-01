@@ -11,14 +11,14 @@ export default function TermsModal({ onClose }) {
         <button onClick={onClose} className="absolute top-4 right-4 text-[#9CA3AF] hover:text-[#111827] transition-colors">
           <X size={20} />
         </button>
-        <h2 className="text-2xl font-bold text-[#111827] mb-1">Leadero – Terms of Service</h2>
+        <h2 className="text-2xl font-bold text-[#111827] mb-1">Leadero LLC – Terms of Service</h2>
         <p className="text-xs text-[#9CA3AF] mb-6">Effective Date: June 11, 2026</p>
         <div className="space-y-4 text-sm text-[#374151] leading-relaxed">
-          <p>Welcome to Leadero ("Company," "we," "our," or "us"). These Terms of Service ("Terms") govern your access to and use of our website, services, marketing solutions, lead generation programs, advertising management, consulting services, and related offerings.</p>
-          <p>By accessing our website or engaging Leadero's services, you agree to be bound by these Terms.</p>
+          <p>Welcome to Leadero LLC ("Company," "we," "our," or "us"). These Terms of Service ("Terms") govern your access to and use of our website, services, marketing solutions, lead generation programs, advertising management, consulting services, and related offerings.</p>
+          <p>By accessing our website or engaging Leadero LLC's services, you agree to be bound by these Terms.</p>
 
           <h3 className="font-semibold text-[#111827] mt-6">1. Services</h3>
-          <p>Leadero provides marketing and business growth services, which may include:</p>
+          <p>Leadero LLC provides marketing and business growth services, which may include:</p>
           <ul className="list-disc ml-5 space-y-1">
             <li>Lead generation campaigns</li>
             <li>Paid advertising management</li>
@@ -33,7 +33,7 @@ export default function TermsModal({ onClose }) {
           <p>Project scope, pricing, timelines, and deliverables shall be outlined separately through proposals, invoices, service agreements, or statements of work.</p>
 
           <h3 className="font-semibold text-[#111827] mt-6">2. Results Disclaimer</h3>
-          <p>Leadero is designed to help businesses generate growth opportunities and qualified lead flow. However:</p>
+          <p>Leadero LLC is designed to help businesses generate growth opportunities and qualified lead flow. However:</p>
           <ul className="list-disc ml-5 space-y-1">
             <li>We do not guarantee a specific number of leads.</li>
             <li>We do not guarantee conversions, revenue, profit, appointments, or ROI.</li>
@@ -63,7 +63,7 @@ export default function TermsModal({ onClose }) {
           <p>All payments are non-refundable unless otherwise stated in writing or required by applicable law.</p>
 
           <h3 className="font-semibold text-[#111827] mt-6">5. Advertising Platforms</h3>
-          <p>Leadero may manage campaigns across third-party platforms including but not limited to search engines, social media platforms, and digital advertising networks. Leadero is not responsible for:</p>
+          <p>Leadero LLC may manage campaigns across third-party platforms including but not limited to search engines, social media platforms, and digital advertising networks. Leadero LLC is not responsible for:</p>
           <ul className="list-disc ml-5 space-y-1">
             <li>Account suspensions</li>
             <li>Platform outages</li>
@@ -75,7 +75,7 @@ export default function TermsModal({ onClose }) {
           <h3 className="font-semibold text-[#111827] mt-6">6. Intellectual Property</h3>
           <p>Unless otherwise agreed:</p>
           <ul className="list-disc ml-5 space-y-1">
-            <li>Leadero retains ownership of proprietary frameworks, internal systems, processes, templates, and methodologies.</li>
+            <li>Leadero LLC retains ownership of proprietary frameworks, internal systems, processes, templates, and methodologies.</li>
             <li>Clients retain ownership of business assets and provided content.</li>
             <li>Rights to final deliverables transfer according to the applicable agreement.</li>
           </ul>
@@ -84,13 +84,13 @@ export default function TermsModal({ onClose }) {
           <p>Both parties agree to maintain confidentiality of all non-public business information exchanged during engagement. Confidential information shall not be disclosed except as required by law.</p>
 
           <h3 className="font-semibold text-[#111827] mt-6">8. Third-Party Services</h3>
-          <p>Leadero may utilize third-party software, automation tools, analytics providers, and service platforms. Leadero is not responsible for interruptions, failures, or actions of third-party providers.</p>
+          <p>Leadero LLC may utilize third-party software, automation tools, analytics providers, and service platforms. Leadero LLC is not responsible for interruptions, failures, or actions of third-party providers.</p>
 
           <h3 className="font-semibold text-[#111827] mt-6">9. Limitation of Liability</h3>
-          <p>To the fullest extent permitted by law, Leadero shall not be liable for indirect, incidental, consequential, special, punitive, or lost profit damages. Leadero's total liability shall not exceed the total fees paid by the client to Leadero during the preceding three (3) months.</p>
+          <p>To the fullest extent permitted by law, Leadero LLC shall not be liable for indirect, incidental, consequential, special, punitive, or lost profit damages. Leadero LLC's total liability shall not exceed the total fees paid by the client to Leadero LLC during the preceding three (3) months.</p>
 
           <h3 className="font-semibold text-[#111827] mt-6">10. Indemnification</h3>
-          <p>Clients agree to defend and indemnify Leadero against claims resulting from:</p>
+          <p>Clients agree to defend and indemnify Leadero LLC against claims resulting from:</p>
           <ul className="list-disc ml-5 space-y-1">
             <li>Client business activities</li>
             <li>Client-provided content</li>
@@ -100,18 +100,18 @@ export default function TermsModal({ onClose }) {
           </ul>
 
           <h3 className="font-semibold text-[#111827] mt-6">11. Termination</h3>
-          <p>Either party may terminate services subject to any active agreement. Outstanding balances remain due upon termination. Leadero reserves the right to suspend or terminate services for violations of these Terms.</p>
+          <p>Either party may terminate services subject to any active agreement. Outstanding balances remain due upon termination. Leadero LLC reserves the right to suspend or terminate services for violations of these Terms.</p>
 
           <h3 className="font-semibold text-[#111827] mt-6">12. Governing Law</h3>
           <p>These Terms shall be governed and interpreted under the laws of the Commonwealth of Virginia.</p>
 
           <h3 className="font-semibold text-[#111827] mt-6">13. Updates to Terms</h3>
-          <p>Leadero may update these Terms periodically. Continued use of our services constitutes acceptance of updated Terms.</p>
+          <p>Leadero LLC may update these Terms periodically. Continued use of our services constitutes acceptance of updated Terms.</p>
 
           <h3 className="font-semibold text-[#111827] mt-6">14. Contact Information</h3>
-          <p>Leadero<br />Website: leadero.agency<br />Email: <a href="mailto:support@leadero.com" className="text-[#8ECDF6] hover:underline">support@leadero.com</a></p>
+          <p>Leadero LLC<br />Website: leadero.agency<br />Email: <a href="mailto:support@leadero.com" className="text-[#8ECDF6] hover:underline">support@leadero.com</a></p>
 
-          <p className="mt-6 text-xs text-[#9CA3AF]">© 2026 Leadero. All Rights Reserved.</p>
+          <p className="mt-6 text-xs text-[#9CA3AF]">© 2026 Leadero LLC. All Rights Reserved.</p>
         </div>
       </div>
     </div>
