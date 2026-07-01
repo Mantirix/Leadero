@@ -41,7 +41,7 @@ export default function Footer() {
 
       <div className="max-w-5xl mx-auto mt-8 pt-6 border-t border-[#DDF3FF] text-center">
         <p className="text-[11px] text-[#9CA3AF]">
-          © {new Date().getFullYear()} Leadero. All rights reserved.
+          © {new Date().getFullYear()} Leadero LLC. All rights reserved.
         </p>
       </div>
     </footer>);
